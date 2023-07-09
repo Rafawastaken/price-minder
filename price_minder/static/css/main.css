@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #1e1e1e;
+  --secondary-color: #292929;
+  --accent-color-1: #ff6b6b;
+  --accent-color-2: #6b66ff;
+  --background-color: #111111;
+  --text-color: #ffffff;
+  --link-color: #ff6b6b;
+  --button-color: #292929;
+  --button-text-color: #ffffff;
+  --border-color: #444444;
+  --hover-color: #333333;
+}
+
+/* main elements */
