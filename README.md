@@ -47,5 +47,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- [TechWithTim](https://github.com/techwithtim) TechWithTim for inspiring the idea of this project through one of his videos (Amazon Price Monitor)[https://www.youtube.com/watch?v=DJnH0jR8y5Q]
+- [TechWithTim](https://github.com/techwithtim) TechWithTim for inspiring the idea of this project through one of his videos (https://www.youtube.com/watch?v=DJnH0jR8y5Q)[Amazon Price Monitor Video]
 - [OpenAI](https://openai.com/) for providing code snippets used all around the code.
