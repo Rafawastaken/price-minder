@@ -35,6 +35,7 @@ PriceMinder is a web application that allows users to monitor the prices of thei
 - Flask
 - HTML/CSS
 - JavaScript
+- Bootstrap v5.3
 - SQLite (or any other preferred database)
 
 ## Contributing
