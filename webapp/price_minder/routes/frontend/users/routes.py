@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, flash
 from .models import User
+from .forms import SignupForm
 
 ##################### * Blueprint * #####################
 users = Blueprint('users', __name__)
@@ -16,7 +17,9 @@ def users_index():
 # Register user
 @users.route('/sign-up', methods = ['POST', 'GET'])
 def sign_up():
-    return render_template('./frontend/users/register.html')
+    form = SignupForm()
+    
+    return render_template('./frontend/users/register.html', form = form)
 
 
 # Login user
