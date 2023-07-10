@@ -1,0 +1,54 @@
+<header class="header-area header-sticky">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <nav class="main-nav">
+          <!-- ***** Logo Start ***** -->
+          <a href="index.html" class="logo">
+            <img
+              src="{{url_for('static', filename='./images/design/logo.png')}}"
+              alt=""
+            />
+          </a>
+          <!-- ***** Logo End ***** -->
+          <!-- ***** Search End ***** -->
+          <div class="search-input">
+            <form id="search" action="">
+              <input
+                type="text"
+                placeholder="Game Search"
+                id="searchText"
+                name="searchKeyword"
+                class="mt-1"
+              />
+              <i
+                class="bi bi-search"
+                style="font-size: 15px; vertical-align: middle"
+              ></i>
+            </form>
+          </div>
+          <!-- ***** Search End ***** -->
+          <!-- ***** Menu Start ***** -->
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Game List</a></li>
+            <li><a href="#">Details</a></li>
+            <li><a href="#">Streams</a></li>
+            <li>
+              <a href="profile.html"
+                >Profile
+                <img
+                  src="{{url_for('static', filename ='./images/design/profile-header.jpg')}}"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+          <a class="menu-trigger">
+            <span>Menu</span>
+          </a>
+          <!-- ***** Menu End ***** -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
