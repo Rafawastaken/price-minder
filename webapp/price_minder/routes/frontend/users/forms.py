@@ -9,5 +9,4 @@ class SignupForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
     password = PasswordField('Password', validators=[DataRequired()])
     confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])
-    age = StringField('Birthday', validators=[DataRequired()])
     submit = SubmitField('Register')

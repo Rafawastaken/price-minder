@@ -13,7 +13,6 @@ class User(db.Model, UserMixin):
     username = db.Column(db.String(30), unique = True, nullable = False)
     email = db.Column(db.String(120), unique = True, nullable = False)
     password = db.Column(db.String(180), unique = False, nullable = False)
-    age = db.Column(db.String(4), unique = False, nullable = False)
 
     # level parameter differentiates the user types (user, admin)
-    level = db.Column(db.Integer, nullable = False, unique = False, default = 0)
+    level = db.Column(db.Integer, nullable = False, unique = False)

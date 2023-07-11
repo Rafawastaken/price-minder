@@ -1,16 +1,26 @@
 {% with messages = get_flashed_messages(with_categories=true) %} {% if messages
 %} {% for category, message in messages %}
 <div
-  class="alert alert-dismissible fade show my-3"
+  class="alert alert-dismissible fade show my-3 mt-4"
   role="alert"
-  style="background-color: var(--secondary-color); color: var(--text-color)"
+  style="
+  background-color: var(--container-color);
+  color: var(--text-color);
+    {% if category == 'success' %}
+     border: 1px solid var(--success-color);
+     {% elif category == 'danger' %}
+     border: 1px solid var(--danger-color);
+     {% elif category == 'warning' %}
+     border: 1px solid var(--warning-color);
+     {% endif %}
+  "
 >
   {% if category == 'success'%}
-  <span class="accent-4 fw-semibold">{{ message }}</span>
+  <span class="fw-semibold color-success">{{ message }}</span>
   {% elif category == 'danger' %}
-  <span class="accent-1 fw-semibold">{{ message }}</span>
+  <span class="color-danger fw-semibold">{{ message }}</span>
   {% elif category == 'warning' %}
-  <span class="accent-3 fw-semibold">{{ message }}</span>
+  <span class="color-warning fw-semibold">{{ message }}</span>
   {% else %}
   <span>{{ message }}</span>
   {% endif %}
