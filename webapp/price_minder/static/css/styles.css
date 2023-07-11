@@ -36,6 +36,10 @@ body {
   color: var(--warning-color);
 }
 
+.color-blue {
+  color: var();
+}
+
 /***** Forms *****/
 
 .input-color {
