@@ -1,5 +1,49 @@
 {% extends "./backend/base.html" %} {% block content %}
-
-<p>hello world</p>
-
+<div class="container-color mt-4">
+  <div class="row">
+    <div class="col">
+      <div class="display-5 mt-3 fw-medium blue-font text-center">
+        ADMIN PANEL
+      </div>
+      <hr class="blue-font mt-2 mb-4" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card bg-dark container-color text-white mb-0 pb-2">
+        <div class="card-body">
+          <h5 class="card-title blue-font fw-bold">User Management</h5>
+          <p class="card-text">Manage users registered to website.</p>
+          <a
+            href="{{url_for('admin_users.users')}}"
+            class="btn btn-outline-primary form-control"
+            >Go to Users</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card bg-dark container-color text-white mb-0 pb-2">
+        <div class="card-body">
+          <h5 class="card-title blue-font fw-bold">Games</h5>
+          <p class="card-text">Check and edit games added to website.</p>
+          <a href="#" class="btn btn-outline-primary form-control"
+            >Go somewhere</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 mb-3 mb-sm-0">
+      <div class="card bg-dark container-color text-white mb-0 pb-2">
+        <div class="card-body">
+          <h5 class="card-title blue-font fw-bold">Categories</h5>
+          <p class="card-text">Check and edit games categories.</p>
+          <a href="#" class="btn btn-outline-primary form-control"
+            >Go somewhere</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}

@@ -30,12 +30,18 @@ with app.app_context():
     # Flask database migrations
     migrate = Migrate(app, db)
 
-    # Import Routes
+    # Backend Routes
     from .routes.backend.admin.routes import admin
+    from .routes.backend.user_management.routes import admin_users
+
+    # Frontend Routes
     from .routes.frontend.users.routes import users
     from .routes.frontend.pages.routes import pages
 
-    # Register blueprints
-    app.register_blueprint(users, url_prefix = '/')
+    # Backend blueprints
     app.register_blueprint(admin, url_prefix = '/admin')
+    app.register_blueprint(admin_users, url_prefix = '/admin/users')
+
+    # Frontend
+    app.register_blueprint(users, url_prefix = '/')
     app.register_blueprint(pages, url_prefix = '/')

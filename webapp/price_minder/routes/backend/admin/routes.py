@@ -11,11 +11,7 @@ admin = Blueprint('admin', __name__)
 # Admin Index
 @admin.route('/')
 def admin_index():
-    title = "Price Minder Admin Panel"
-
-    flash('success message', "success")
-    flash('danger message', "danger")
-    flash('warning message', "warning")
+    title = "Price Minder - Admin Panel"
     return render_template('./backend/admin/index.html', title = title)
 
 

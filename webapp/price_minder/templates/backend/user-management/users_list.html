@@ -1,0 +1,50 @@
+{% extends "./backend/base.html" %} {% block content %}
+
+<div class="container-color mt-4">
+  <div class="row">
+    <div class="col">
+      <div class="display-5 mt-3 fw-medium blue-font text-center">USERS</div>
+      <hr class="blue-font mt-2 mb-4" />
+    </div>
+  </div>
+  <div class="row">
+    <!-- CONTENT GOES HERE -->
+    <table
+      class="text-center table table-dark align-middle table-striped table-hover"
+    >
+      <thead>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Level</th>
+        <th class="text-center text-warning">Promote</th>
+        <th class="text-center text-primary">Edit</th>
+        <th class="text-center text-danger">Delete</th>
+      </thead>
+      {% for user in users %}
+      <tr>
+        <td>{{user.id}}</td>
+        <td>{{user.username}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.level}}</td>
+        <td>
+          <a href="#" class="btn btn-sm btn-outline-warning form-control"
+            >Promote</a
+          >
+        </td>
+        <td>
+          <a href="#" class="btn btn-sm btn-outline-primary form-control"
+            >Edit</a
+          >
+        </td>
+        <td>
+          <a href="#" class="btn btn-sm btn-outline-danger form-control"
+            >Delete</a
+          >
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+{% endblock %}
