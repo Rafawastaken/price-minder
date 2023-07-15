@@ -49,8 +49,30 @@ def games_management_add():
     title = "Add Games Forms"
     form = AddGameForm()
 
+
+    # ! Falta adicionar generos
+
     if form.validate_on_submit():
-        ...
+        # Meta
+        steam_id = form.steam_id.data
+        name = form.name.data
+        release_date = form.release_date.data
+        product_type = form.product_type.data
+        description = form.description.data
+
+        # Images
+        link_header = form.link_header.data
+        capsule_image = form.capsule_image.data
+        capsule_imagev5 = form.capsule_imagev5.data
+
+        # Prices
+        price = form.price.data
+        on_sale = form.on_sale.data
+        discout_price = form.discount_price.data
+
+        
+
+        return "form sent"
     else:
         flash_errors(form.errors)
 

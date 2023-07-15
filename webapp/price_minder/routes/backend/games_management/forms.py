@@ -9,7 +9,7 @@ class AddGameForm(FlaskForm):
     steam_id = StringField('Name', validators=[DataRequired()])
     name = StringField('Name', validators=[DataRequired()])
     release_date = StringField('Release Date', validators=[DataRequired()])
-    type_product = StringField('Product Type', validators=[DataRequired()])
+    product_type = StringField('Product Type', validators=[DataRequired()])
     description = StringField('Description', validators=[DataRequired()])
     
     # Images

@@ -12,21 +12,100 @@
   <div class="row">
     <form method="POST">
       {{form.csrf_token}}
+
       <div class="mb-3">
         {{form.name(placeholder="Game Name",class='form-control input-color')}}
       </div>
+
+      <div class="row">
+        <div class="col-6">
+          <div class="mb-3">
+            {{form.steam_id(placeholder="Steam ID",class='form-control
+            input-color')}}
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="mb-3">
+            {{form.release_date(placeholder="Release Date",class='form-control
+            input-color')}}
+          </div>
+        </div>
+      </div>
+
       <div class="mb-3">
-        {{form.release_date(placeholder="Release Date",class='form-control
+        {{form.product_type(placeholder="Product Type",class='form-control
         input-color')}}
       </div>
-      <div class="mb-3">
-        {{form.type_product(placeholder="Product Type",class='form-control
-        input-color')}}
-      </div>
+
       <div class="mb-3">
         {{form.description(class='form-control input-color',
         placeholder="Description")}}
       </div>
+
+      <div class="row mb-3">
+        <div class="col-5 mt-1 ps-2">
+          <hr class="blue-font" />
+        </div>
+        <div class="col-2">
+          <div class="h3 text-center blue-font">IMAGES</div>
+        </div>
+        <div class="col-5 mt-1 ps-2">
+          <hr class="blue-font" />
+        </div>
+      </div>
+
+      <div class="mb-3">
+        {{form.link_header(placeholder="Link Header", class='form-control
+        input-color' )}}
+      </div>
+      <div class="mb-3">
+        {{form.capsule_image(placeholder="Capuse Image", class='form-control
+        input-color' )}}
+      </div>
+      <div class="mb-3">
+        {{form.capsule_imagev5(placeholder="Capuse Image v5",
+        class='form-control input-color' )}}
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-5 mt-1 ps-2">
+          <hr class="blue-font" />
+        </div>
+        <div class="col-2">
+          <div class="h3 text-center blue-font">PRICES</div>
+        </div>
+        <div class="col-5 mt-1 ps-2">
+          <hr class="blue-font" />
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col">
+          <div class="mb-3 mt-2 form-check ms-5">
+            {{form.on_sale(class='form-check-input ms-3 me-2')}}
+            <label class="form-check-label" for="exampleCheck1">On Sale</label>
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            {{form.price(placeholder="Price", class='form-control input-color'
+            )}}
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            {{form.discount_price(placeholder="Discount Price",
+            class='form-control input-color' )}}
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            {{form.discount_percent(placeholder="Discount Percent",
+            class='form-control input-color' )}}
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-6">
           <input
