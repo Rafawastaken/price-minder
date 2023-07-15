@@ -1,7 +1,7 @@
 from price_minder import app, db, bcrypt
 
 from flask import Blueprint, render_template, flash, redirect, url_for, request
-from flask_login import login_user
+from flask_login import login_user, logout_user
 
 from .models import User
 from .forms import SignupForm, LoginForm
@@ -68,3 +68,11 @@ def login():
     # Flash form errors
     else: flash_errors(form.errors)
     return render_template('./frontend/users/login.html', form = form, title = title)
+
+
+# Logout users
+@users.route('/logout', methods = ['POST'])
+def logout():
+    logout_user()
+    flash('We will miss you...', "success")
+    return redirect(url_for('pages.index_pages'))

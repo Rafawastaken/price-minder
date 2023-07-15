@@ -19,6 +19,7 @@ def check_permission():
 
 # Admin Index
 @admin.route('/')
+@login_required
 def admin_index():
     title = "Price Minder - Admin Panel"
     if not check_permission():

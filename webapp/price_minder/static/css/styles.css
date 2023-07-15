@@ -25,6 +25,21 @@ body {
   color: var(--font-color);
 }
 
+/***** BOOTSTRAP *****/
+
+.btn-outline-primary:hover {
+  background-color: var(--dark-blue-color);
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--dark-blue-color);
+  text-shadow: none;
+  outline: none;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
 /***** Flash *****/
 .color-success {
   color: var(--success-color);
@@ -34,10 +49,6 @@ body {
 }
 .color-warning {
   color: var(--warning-color);
-}
-
-.color-blue {
-  color: var();
 }
 
 /***** Forms *****/

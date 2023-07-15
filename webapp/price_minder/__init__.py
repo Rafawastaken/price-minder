@@ -33,6 +33,7 @@ with app.app_context():
     # Backend Routes
     from .routes.backend.admin.routes import admin
     from .routes.backend.user_management.routes import admin_users
+    from .routes.backend.games_management.routes import games_management
 
     # Frontend Routes
     from .routes.frontend.users.routes import users
@@ -41,6 +42,7 @@ with app.app_context():
     # Backend blueprints
     app.register_blueprint(admin, url_prefix = '/admin')
     app.register_blueprint(admin_users, url_prefix = '/admin/users')
+    app.register_blueprint(games_management, url_prefix = '/admin/games')
 
     # Frontend
     app.register_blueprint(users, url_prefix = '/')
