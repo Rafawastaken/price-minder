@@ -5,7 +5,7 @@ from .models import Game, Genre
 from .forms import AddGameForm
 
 ##################### * Blueprint * #####################
-games_management = Blueprint('games', __name__)
+management = Blueprint('games_management', __name__)
 
 
 ##################### * Helpers * #####################
@@ -23,10 +23,10 @@ def flash_errors(errors):
             flash(f"{error.title()} - {item}", "danger")
 
 
-##################### * Routes Games Management * #####################
+##################### * Games Management * #####################
 
 # Index admin for game management
-@games_management.route('/')
+@management.route('/games')
 @login_required
 def games_management_index():
     
@@ -39,7 +39,7 @@ def games_management_index():
     return render_template('./backend/games-management/games_list.html', title = title, games = games)
 
 
-@games_management.route('/add-game', methods = ['POST', 'GET'])
+@management.route('/games/add-game', methods = ['POST', 'GET'])
 @login_required
 def games_management_add():
     if not check_permission():
@@ -77,3 +77,16 @@ def games_management_add():
         flash_errors(form.errors)
 
     return render_template('./backend/games-management/games_add.html', title = title, form = form)
+
+
+##################### * Categories Management * #####################
+@management.route('/genres')
+@login_required
+def categories_list():
+    if not check_permission():
+        flash("You don't have permissions to view this area", "danger")
+        return redirect(url_for('pages.index_pages'))
+
+    title = "Genres List"
+
+    return render_template('./backend/games-management/games_list.html', title = title)
