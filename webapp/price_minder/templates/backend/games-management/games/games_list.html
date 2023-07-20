@@ -6,7 +6,11 @@
       <div class="display-5 mt-3 fw-medium blue-font text-start">GAMES</div>
     </div>
     <div class="col-3 mt-4">
-      <a href="" class="btn btn-outline-primary form-control">ADD GAME</a>
+      <a
+        href="{{url_for('games_management.games_management_add')}}"
+        class="btn btn-outline-primary form-control"
+        >ADD GAME</a
+      >
     </div>
     <hr class="blue-font mt-2 mb-4" />
   </div>
@@ -19,6 +23,7 @@
         <th>ID</th>
         <th>IMG</th>
         <th>Name</th>
+        <th>Genre</th>
         <th>Date</th>
         <th>Type</th>
         <th>Price</th>
@@ -29,7 +34,32 @@
         <th class="text-center text-danger">Delete</th>
       </thead>
       {% for game in games %}
-      <tr></tr>
+      <tr>
+        <td>{{game.id}}</td>
+        <td>
+          <img src="{{game.capsule_imgv5}}" alt="{{game.name}}" height="25" />
+        </td>
+        <td>{{game.name}}</td>
+        <td>{{game.genre.name}}</td>
+        <td>{{game.release_date}}</td>
+        <td>{{game.type_product}}</td>
+        <td>{{game.price}}</td>
+        <td>{{game.on_sale}}</td>
+        <td>{{game.price}}</td>
+
+        <td>
+          <a href="" class="btn btn-sm btn-outline-warning">Edit</a>
+        </td>
+        <td>
+          <form action="" method="POST">
+            <input
+              type="submit"
+              class="btn btn-outline-danger form-control btn-sm"
+              value="DEL"
+            />
+          </form>
+        </td>
+      </tr>
 
       {% endfor %}
     </table>

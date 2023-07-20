@@ -1,7 +1,7 @@
 # Project related ignores
 webapp/__template__
 webapp/__template__/*
-
+webapp/migrations/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

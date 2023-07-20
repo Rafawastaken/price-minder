@@ -39,6 +39,7 @@ def games_management_index():
     games = Game.query.all()
     return render_template('./backend/games-management/games/games_list.html', title = title, games = games)
 
+
 # add games
 @management.route('/games/add-game', methods = ['POST', 'GET'])
 @login_required
@@ -49,32 +50,41 @@ def games_management_add():
 
     title = "Add Games"
     form = AddGameForm()
+    genres = Genre.query.all()
 
     # ! Falta adicionar generos
 
     if form.validate_on_submit():
         # Meta
-        steam_id = form.steam_id.data
-        name = form.name.data
-        release_date = form.release_date.data
-        product_type = form.product_type.data
-        description = form.description.data
+        game = Game(
+            steam_id = form.steam_id.data,
+            name = form.name.data,
+            release_date = form.release_date.data,
+            type_product = form.product_type.data,
+            description = form.description.data,
+            genre_id = request.form.get('genre'),
 
-        # Images
-        link_header = form.link_header.data
-        capsule_image = form.capsule_image.data
-        capsule_imagev5 = form.capsule_imagev5.data
+            # Images
+            header_img = form.link_header.data,
+            capsule_img = form.capsule_image.data,
+            capsule_imgv5 = form.capsule_imagev5.data,
 
-        # Prices
-        price = form.price.data
-        on_sale = form.on_sale.data
-        discout_price = form.discount_price.data
+            # Prices
+            price = form.price.data,
+            on_sale = form.on_sale.data,
+            discount_price = form.discount_price.data,
+            discount_percent = form.discount_percent.data
+        )
 
-        return "form sent"
+        db.session.add(game)
+        db.session.commit()
+        
+        flash(f'{form.name.data} added to Games', "success")
+        return redirect(url_for("games_management.games_management_index"))
     else:
         flash_errors(form.errors)
 
-    return render_template('./backend/games-management/games/games_add.html', title = title, form = form)
+    return render_template('./backend/games-management/games/games_add.html', title = title, form = form, genres = genres)
 
 
 ##################### * Categories Management * #####################
@@ -90,6 +100,7 @@ def genres_management_index():
     title = "Genres List"
     genres = Genre.query.all()
     return render_template('./backend/games-management/genres/genres_list.html', title = title, genres = genres)
+
 
 # add genre
 @management.route('/genres/add-genre', methods=['POST', 'GET'])
@@ -113,6 +124,7 @@ def genres_management_add():
 
     return render_template('./backend/games-management/genres/genres_add.html', title=title, form=form)
 
+
 # edit genre
 @management.route('/genres/edit/<int:id>', methods=['GET', 'POST'])
 @login_required
@@ -120,10 +132,15 @@ def genres_management_edit(id):
     title = "Edit "
     return
 
+
 # delete genre
-@management.route('/genres/delete/<int:id>', methods=['POST', 'GET'])
+@management.route('/genres/delete/<int:id>', methods=['POST'])
 @login_required
 def genres_management_del(id):
+    if not check_permission():
+        flash("You don't have permissions to view this area", "danger")
+        return redirect(url_for('pages.index_pages'))
+
     genre = Genre.query.get_or_404(id)
     
     db.session.delete(genre)

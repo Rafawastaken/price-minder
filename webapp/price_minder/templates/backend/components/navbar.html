@@ -31,10 +31,20 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Games</a>
+          <a
+            class="nav-link"
+            aria-current="page"
+            href="{{url_for('games_management.games_management_index')}}"
+            >Games</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Categories</a>
+          <a
+            class="nav-link"
+            aria-current="page"
+            href="{{url_for('games_management.genres_management_index')}}"
+            >Genres</a
+          >
         </li>
         <li class="nav-item">
           <form action="{{url_for('users.logout')}}" method="POST">

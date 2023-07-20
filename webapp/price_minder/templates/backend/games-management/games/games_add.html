@@ -32,11 +32,25 @@
         </div>
       </div>
 
-      <div class="mb-3">
-        {{form.product_type(placeholder="Product Type",class='form-control
-        input-color')}}
-      </div>
+      <div class="row">
+        <div class="col-6 mb-3">
+          {{form.product_type(placeholder="Product Type",class='form-control
+          input-color')}}
+        </div>
 
+        <div class="col-6 mb-3">
+          <select
+            name="genre"
+            class="form-control input-color"
+            style="color: #325c8bcb"
+          >
+            <option value="">Select Genre</option>
+            {% for genre in genres %}
+            <option value="{{genre.id}}">{{genre.name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
       <div class="mb-3">
         {{form.description(class='form-control input-color',
         placeholder="Description")}}

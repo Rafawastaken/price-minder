@@ -1,51 +1,57 @@
 {
-  "588650": {
+  "268500": {
     "success": true,
     "data": {
       "type": "game",
-      "name": "Dead Cells",
-      "steam_appid": 588650,
+      "name": "XCOM® 2",
+      "steam_appid": 268500,
       "required_age": 0,
       "is_free": false,
-      "controller_support": "full",
-      "dlc": [1580050, 1451460, 1204130, 1046440, 665380, 1393790, 2101430],
-      "detailed_description": "<h1>Novo DLC disponível</h1><p><a href=\"https://store.steampowered.com/app/2101430/Dead_Cells_Return_to_Castlevania/\" target=\"_blank\" rel=\"\"  id=\"dynamiclink_0\" >https://store.steampowered.com/app/2101430/Dead_Cells_Return_to_Castlevania/</a><h2 class=\"bb_tag\">Return to Castlevania DLC is available now!</h2></p><br><h1>Acerca do Jogo</h1><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/588650/extras/Remparts-(short).jpg?t=1678188017\" /><h2 class=\"bb_tag\">Roguelite? Metroidvania? Roguevania!</h2>Você cresceu jogando roguelikes, testemunhou a ascensão dos roguelites e talvez até mesmo o nascimento dos roguelite-lites? Agora queremos apresentar para você o nosso RogueVania, o filho ilegítimo dos modernos roguelites (Rogue Legacy, Binding of Isaac, Enter the Gungeon, Spelunky etc.) e do antigo MetroidVania (Castlevania: SotN e seus antecessores).<br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/588650/extras/Graveyard_-_Copy.jpg?t=1678188017\" /><h2 class=\"bb_tag\"><h2 class=\"bb_tag\">Características:</h2></h2><ul class=\"bb_ul\"><li> RogueVania: Exploração progressiva de um mundo interconectado, com a rejogabilidade de um rogue-lite e a adrenalina que traz a ameaça da morte permanente.<br></li><li> Ação em 2D tipo Dark Souls: Combates difíceis mas justos, mais de 50 armas e feitiços com jogabilidade única, e é claro, o rolamento de emergência para tirar você de qualquer sufoco.<br></li><li> Progressão não linear: Esgoto, Ossuário ou Muralhas? Depois de serem desbloqueadas, as habilidades permanentes possibilitam que você acesse novos caminhos para cumprir seu objetivo. Escolha um caminho de acordo com suas habilidades e equipamentos, seu modo de jogar ou apenas seu humor.<br></li><li> Exploração: Salas secretas, passagens ocultas, cenários encantadores. Aproveite a brisa nas torres e sinta o ar fresco batendo no rosto...</li></ul><br>Fases interconectadas e o desbloqueio progressivo da ilha incentivam a exploração dos arredores. Adicione um pouco de evolução do personagem e melhorias permanentes das armas e você vai ver como Dead Cells se inspirou na linhagem dos MetroidVanias que o precedem.<br><br>No fim das contas, são as SUAS habilidades como jogador que importam! Roguelites incentivam a melhoria contínua, até que aquele obstáculo que parecia insuperável se torne um passeio no parque. Combates impiedosos junto com a ausência de qualquer rede de proteção aumentam a adrenalina de cada partida com uma rejogabilidade sem igual.<br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/588650/extras/Black-Bridge-Ravens_-_Copy.jpg?t=1678188017\" />",
-      "about_the_game": "<img src=\"https://cdn.akamai.steamstatic.com/steam/apps/588650/extras/Remparts-(short).jpg?t=1678188017\" /><h2 class=\"bb_tag\">Roguelite? Metroidvania? Roguevania!</h2>Você cresceu jogando roguelikes, testemunhou a ascensão dos roguelites e talvez até mesmo o nascimento dos roguelite-lites? Agora queremos apresentar para você o nosso RogueVania, o filho ilegítimo dos modernos roguelites (Rogue Legacy, Binding of Isaac, Enter the Gungeon, Spelunky etc.) e do antigo MetroidVania (Castlevania: SotN e seus antecessores).<br><br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/588650/extras/Graveyard_-_Copy.jpg?t=1678188017\" /><h2 class=\"bb_tag\"><h2 class=\"bb_tag\">Características:</h2></h2><ul class=\"bb_ul\"><li> RogueVania: Exploração progressiva de um mundo interconectado, com a rejogabilidade de um rogue-lite e a adrenalina que traz a ameaça da morte permanente.<br></li><li> Ação em 2D tipo Dark Souls: Combates difíceis mas justos, mais de 50 armas e feitiços com jogabilidade única, e é claro, o rolamento de emergência para tirar você de qualquer sufoco.<br></li><li> Progressão não linear: Esgoto, Ossuário ou Muralhas? Depois de serem desbloqueadas, as habilidades permanentes possibilitam que você acesse novos caminhos para cumprir seu objetivo. Escolha um caminho de acordo com suas habilidades e equipamentos, seu modo de jogar ou apenas seu humor.<br></li><li> Exploração: Salas secretas, passagens ocultas, cenários encantadores. Aproveite a brisa nas torres e sinta o ar fresco batendo no rosto...</li></ul><br>Fases interconectadas e o desbloqueio progressivo da ilha incentivam a exploração dos arredores. Adicione um pouco de evolução do personagem e melhorias permanentes das armas e você vai ver como Dead Cells se inspirou na linhagem dos MetroidVanias que o precedem.<br><br>No fim das contas, são as SUAS habilidades como jogador que importam! Roguelites incentivam a melhoria contínua, até que aquele obstáculo que parecia insuperável se torne um passeio no parque. Combates impiedosos junto com a ausência de qualquer rede de proteção aumentam a adrenalina de cada partida com uma rejogabilidade sem igual.<br><img src=\"https://cdn.akamai.steamstatic.com/steam/apps/588650/extras/Black-Bridge-Ravens_-_Copy.jpg?t=1678188017\" />",
-      "short_description": "Dead Cells é um rogue-lite de ação em plataforma estilo Metroidvania. Você vai explorar um castelo extenso e em constante mutação... considerando que consiga enfrentar seus guardiões em combates 2D inspirados em Dark Souls. Sem checkpoints. Mate, morra, aprenda, repita.",
-      "supported_languages": "Inglês<strong>*</strong>, Francês<strong>*</strong>, Chinês simplificado<strong>*</strong>, Italiano<strong>*</strong>, Alemão<strong>*</strong>, Espanhol (Espanha)<strong>*</strong>, Japonês<strong>*</strong>, Português (Portugal)<strong>*</strong>, Russo<strong>*</strong>, Turco<strong>*</strong>, Coreano<strong>*</strong>, Chinês tradicional<strong>*</strong>, Português (Brasil)<strong>*</strong><br><strong>*</strong>idiomas com suporte total de áudio",
-      "reviews": "“Dead Cells may be the most fun I've had in a game all year.”<br>9/10 – <a href=\"https://steamcommunity.com/linkfilter/?url=https://www.polygon.com/2017/5/19/15659584/dead-cells-review\" target=\"_blank\" rel=\" noopener\"  >Polygon</a><br><br>“[...] The game smartly dissects what’s so exciting about Metroidvanias (exploring labyrinthine levels packed with variety, unlocking new abilities that re-contextualize areas you already passed through) and reassembles those things around a compulsive roguelike core.”<br><a href=\"http://steamed.kotaku.com/steams-latest-hit-is-like-castlevania-except-more-rand-1795144683\" target=\"_blank\" rel=\"\"  >Kotaku</a><br><br>“[...] Dead Cells is worthy of its own invention. It’s not just a roguevania – it’s a damn good roguevania.”<br><a href=\"https://www.rockpapershotgun.com/2017/05/16/dead-cells-review-early-access/\" target=\"_blank\" rel=\"\"  >Rock Paper Shotgun</a><br>",
-      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg?t=1678188017",
-      "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/588650/capsule_231x87.jpg?t=1678188017",
-      "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/588650/capsule_184x69.jpg?t=1678188017",
-      "website": "https://dead-cells.com/",
+      "dlc": [593380, 426321, 785300, 433091, 433090, 433080, 399620],
+      "detailed_description": "<img src=\"https://cdn.akamai.steamstatic.com/steam/apps/268500/extras/Portuguese_X2Collection.jpg?t=1646157374\" /><br><br>Os alienígenas dominam a Terra e prometem um futuro brilhante para a humanidade, mas escondem um objetivo sinistro. Como líder de uma força de guerrilha em tremenda inferioridade numérica, terás de iniciar um movimento de resistência global para eliminar a ameaça alienígena e salvar a humanidade da extinção. <br><br><ul class=\"bb_ul\"><li><strong>A XCOM EM FUGA:</strong> comanda o Avenger, uma nave de abastecimento alienígena convertida no quartel-general móvel da XCOM. A nova jogabilidade permite-te decidir para onde queres guiar a tua equipa de ataque, como aumentar o apoio popular e quando combater contra o inimigo.<br></li><li><strong>RECRUTA LUTADORES DA RESISTÊNCIA: </strong>as cinco classes de soldado, cada uma com a sua própria árvore de habilidades, permitem-te criar soldados específicos para o teu plano tático. <br></li><li><strong>COMBATE DE GUERRILHA TÁTICO: </strong>os novos sistemas de jogabilidade oferecem uma maior flexibilidade tática em combate. Usa a dissimulação para fazeres emboscadas às patrulhas do inimigo. Revista os seus cadáveres em busca de equipamentos e artefactos. Resgata VIPs e salva os teus camaradas caídos em combate transportando-os até ao ponto de extração.<br></li><li><strong>UMA NOVA ESPÉCIE DE INIMIGO: </strong>o leque diverso de inimigos, desde poderosas espécies alienígenas até à ADVENT, que faz cumprir o regime alienígena, oferece um desafio tático distinto. <br></li><li><strong>PESQUISA, DESENVOLVE E MELHORA: </strong>configura e constrói divisões no Avenger para dares novas capacidades à XCOM no campo de batalha. Usa os teus cientistas e técnicos para pesquisar, desenvolver e melhorar armas e armaduras de acordo com as tuas táticas de eleição.<br></li><li><strong>CADA MISSÃO É UM DESAFIO ÚNICO:</strong> parte em missões em zonas selvagens, metrópoles controladas pelo inimigo ou as profundezas de instalações alienígenas, entre outros. Existem combinações virtualmente infinitas de mapas, missões e objetivos. <br></li><li><strong>CRIA MODS PERSONALIZADOS: </strong>as ferramentas dedicadas à comunidade permitem-te criar a tua própria campanha, jogabilidade tática, alienígenas, classes, funcionalidades estratégicas e partilhar tudo isto através do Steam Workshop.</li></ul>",
+      "about_the_game": "<img src=\"https://cdn.akamai.steamstatic.com/steam/apps/268500/extras/Portuguese_X2Collection.jpg?t=1646157374\" /><br><br>Os alienígenas dominam a Terra e prometem um futuro brilhante para a humanidade, mas escondem um objetivo sinistro. Como líder de uma força de guerrilha em tremenda inferioridade numérica, terás de iniciar um movimento de resistência global para eliminar a ameaça alienígena e salvar a humanidade da extinção. <br><br><ul class=\"bb_ul\"><li><strong>A XCOM EM FUGA:</strong> comanda o Avenger, uma nave de abastecimento alienígena convertida no quartel-general móvel da XCOM. A nova jogabilidade permite-te decidir para onde queres guiar a tua equipa de ataque, como aumentar o apoio popular e quando combater contra o inimigo.<br></li><li><strong>RECRUTA LUTADORES DA RESISTÊNCIA: </strong>as cinco classes de soldado, cada uma com a sua própria árvore de habilidades, permitem-te criar soldados específicos para o teu plano tático. <br></li><li><strong>COMBATE DE GUERRILHA TÁTICO: </strong>os novos sistemas de jogabilidade oferecem uma maior flexibilidade tática em combate. Usa a dissimulação para fazeres emboscadas às patrulhas do inimigo. Revista os seus cadáveres em busca de equipamentos e artefactos. Resgata VIPs e salva os teus camaradas caídos em combate transportando-os até ao ponto de extração.<br></li><li><strong>UMA NOVA ESPÉCIE DE INIMIGO: </strong>o leque diverso de inimigos, desde poderosas espécies alienígenas até à ADVENT, que faz cumprir o regime alienígena, oferece um desafio tático distinto. <br></li><li><strong>PESQUISA, DESENVOLVE E MELHORA: </strong>configura e constrói divisões no Avenger para dares novas capacidades à XCOM no campo de batalha. Usa os teus cientistas e técnicos para pesquisar, desenvolver e melhorar armas e armaduras de acordo com as tuas táticas de eleição.<br></li><li><strong>CADA MISSÃO É UM DESAFIO ÚNICO:</strong> parte em missões em zonas selvagens, metrópoles controladas pelo inimigo ou as profundezas de instalações alienígenas, entre outros. Existem combinações virtualmente infinitas de mapas, missões e objetivos. <br></li><li><strong>CRIA MODS PERSONALIZADOS: </strong>as ferramentas dedicadas à comunidade permitem-te criar a tua própria campanha, jogabilidade tática, alienígenas, classes, funcionalidades estratégicas e partilhar tudo isto através do Steam Workshop.</li></ul>",
+      "short_description": "Os alienígenas dominam a Terra e prometem um futuro brilhante para a humanidade, mas escondem um objetivo sinistro. Como líder de uma força de guerrilha em tremenda inferioridade numérica, terás de iniciar um movimento de resistência global para eliminar a ameaça alienígena e salvar a humanidade da extinção.",
+      "supported_languages": "Inglês<strong>*</strong>, Francês<strong>*</strong>, Italiano<strong>*</strong>, Alemão<strong>*</strong>, Espanhol (Espanha)<strong>*</strong>, Japonês, Coreano, Polaco, Russo, Chinês simplificado, Chinês tradicional<br><strong>*</strong>idiomas com suporte total de áudio",
+      "reviews": "“Exceptionally tough, rewarding strategy and a masterful reworking of the XCOM formula. We’ll play this forever.”<br>94% – <a href=\"http://www.pcgamer.com/xcom-2-review/\" target=\"_blank\" rel=\"\"  >PC Gamer</a><br><br>“One of the deepest and most rewarding strategy games on the market”<br>9.5 – <a href=\"https://steamcommunity.com/linkfilter/?url=http://www.gameinformer.com/games/xcom_2/b/pc/archive/2016/02/01/xcom-2-game-informer-review.aspx\" target=\"_blank\" rel=\" noopener\"  >Game Informer</a><br><br>“XCOM 2 is an amazing game”<br>9.3 – <a href=\"http://www.ign.com/articles/2016/02/01/xcom-2-review?read\" target=\"_blank\" rel=\"\"  >IGN</a><br>",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/268500/header.jpg?t=1646157374",
+      "capsule_image": "https://cdn.akamai.steamstatic.com/steam/apps/268500/capsule_231x87.jpg?t=1646157374",
+      "capsule_imagev5": "https://cdn.akamai.steamstatic.com/steam/apps/268500/capsule_184x69.jpg?t=1646157374",
+      "website": "http://www.xcom.com",
       "pc_requirements": {
-        "minimum": "<strong>Mínimos:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Windows 7+<br></li><li><strong>Processador:</strong> Intel i5+<br></li><li><strong>Memória:</strong> 2 GB de RAM<br></li><li><strong>Placa gráfica:</strong> Nvidia 450 GTS / Radeon HD 5750 or better<br></li><li><strong>Espaço no disco:</strong> Requer 500 MB de espaço livre<br></li><li><strong>Notas adicionais:</strong> DirectX 9.1+ or OpenGL 3.2+</li></ul>",
-        "recommended": "<strong>Recomendados:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Windows 7+<br></li><li><strong>Processador:</strong> Intel i5+<br></li><li><strong>Memória:</strong> 4 GB de RAM<br></li><li><strong>Placa gráfica:</strong> Nvidia GTX 460 / Radeon HD 7800 or better<br></li><li><strong>Espaço no disco:</strong> Requer 500 MB de espaço livre<br></li><li><strong>Notas adicionais:</strong> DirectX 9.1+ or OpenGL 3.2+</li></ul>"
+        "minimum": "<strong>Mínimos:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Windows® 7, 64-bit<br></li><li><strong>Processador:</strong> Intel Core 2 Duo E4700 2.6 GHz or AMD Phenom 9950 Quad Core 2.6 GHz<br></li><li><strong>Memória:</strong> 4 GB de RAM<br></li><li><strong>Placa gráfica:</strong> 1GB ATI Radeon HD 5770, 1GB NVIDIA GeForce GTX 460 or better<br></li><li><strong>DirectX:</strong> Versão 11<br></li><li><strong>Espaço no disco:</strong> Requer 45 GB de espaço livre<br></li><li><strong>Placa de som:</strong> DirectX compatible sound card<br></li><li><strong>Notas adicionais:</strong> Initial installation requires one-time Internet connection for Steam authentication; software installations required (included with the game) include Steam Client, Microsoft Visual C++2012 and 2013 Runtime Libraries and Microsoft DirectX.</li></ul>",
+        "recommended": "<strong>Recomendados:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Windows® 7, 64-bit<br></li><li><strong>Processador:</strong> 3GHz Quad Core<br></li><li><strong>Memória:</strong> 8 GB de RAM<br></li><li><strong>Placa gráfica:</strong> 2GB ATI Radeon HD 7970, 2GB NVIDIA GeForce GTX 770 or better<br></li><li><strong>Espaço no disco:</strong> Requer 45 GB de espaço livre<br></li><li><strong>Placa de som:</strong> DirectX compatible sound card</li></ul>"
       },
       "mac_requirements": {
-        "minimum": "<strong>Mínimos:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Mavericks 10.9 or later<br></li><li><strong>Memória:</strong> 2 GB de RAM<br></li><li><strong>Placa gráfica:</strong> OpenGL 3.2+<br></li><li><strong>Espaço no disco:</strong> Requer 500 MB de espaço livre<br></li><li><strong>Notas adicionais:</strong> MacBook, MacBook Pro or iMac 2012 or later</li></ul>",
-        "recommended": "<strong>Recomendados:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Mavericks 10.9 or later<br></li><li><strong>Memória:</strong> 4 GB de RAM<br></li><li><strong>Placa gráfica:</strong> OpenGL 3.2+<br></li><li><strong>Espaço no disco:</strong> Requer 500 MB de espaço livre<br></li><li><strong>Notas adicionais:</strong> MacBook, MacBook Pro or iMac 2012 or later</li></ul>"
+        "minimum": "<strong>Mínimos:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> macOS 10.13.6<br></li><li><strong>Processador:</strong> 2.5GHz Intel Core i5 or greater<br></li><li><strong>Memória:</strong> 8 GB de RAM<br></li><li><strong>Placa gráfica:</strong> 1GB AMD 5750, Nvidia 650M, 1.5GB Intel Iris Pro 6200 (See Notes for more details)<br></li><li><strong>Espaço no disco:</strong> Requer 45 GB de espaço livre<br></li><li><strong>Notas adicionais:</strong> <strong>The game is supported on the following Macs. To check your Mac model and when it was released, select About This Mac from the Apple menu on your menu bar.</strong> <ul class=\"bb_ul\">  <li>*  All 13” MacBook Pros released since Late 2016  </li><li>*  All 15” MacBook Pros since early 2011 with a 2.3GHz processor or better  </li><li>*  All 17&quot; MacBook Pros since Early 2011  </li><li>*  All 21.5” iMacs since late 2013 with a 1GB NVIDIA GeForce GT 750M or better  </li><li>*  All 27” iMacs since mid 2010 with a 1GB Graphics Cards and a 2.5GHz processor or better </li><li>*  All 27” iMacs Pro's  </li><li>*  All Mac Pros released since Late 2009  </li><li> <i>Please note for your computer to meet the minimum requirements it must match or better all elements of the listed spec. For more detailed specifications check the Feral website.</i>  </li><li> ——— </li></ul> Multiplayer is compatible between Mac, Linux and Windows versions</li></ul>"
       },
       "linux_requirements": {
-        "minimum": "<strong>Mínimos:</strong><br><ul class=\"bb_ul\"><li><strong>Memória:</strong> 2 GB de RAM<br></li><li><strong>Placa gráfica:</strong> Nvidia 450 GTS / Radeon HD 5750 or better<br></li><li><strong>Espaço no disco:</strong> Requer 500 MB de espaço livre<br></li><li><strong>Notas adicionais:</strong> OpenGL 3.2+</li></ul>",
-        "recommended": "<strong>Recomendados:</strong><br><ul class=\"bb_ul\"><li><strong>Memória:</strong> 4 GB de RAM<br></li><li><strong>Placa gráfica:</strong> Nvidia GTX 460 / Radeon HD 7800 or better<br></li><li><strong>Espaço no disco:</strong> Requer 500 MB de espaço livre<br></li><li><strong>Notas adicionais:</strong> OpenGL 3.2+</li></ul>"
+        "minimum": "<strong>Mínimos:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Ubuntu 14.04.2 64-bit or Steam OS<br></li><li><strong>Processador:</strong> Intel i3-3225 3.3ghz<br></li><li><strong>Memória:</strong> 4 GB de RAM<br></li><li><strong>Placa gráfica:</strong> NVIDIA 650 (1GB), AMD R9 270 (2GB) or better<br></li><li><strong>Espaço no disco:</strong> Requer 45 GB de espaço livre<br></li><li><strong>Notas adicionais:</strong> <ul class=\"bb_ul\">  <li> * Intel GPUs are not supported at time of release. </li><li> * Nvidia requires 352.55 or newer drivers. </li><li> * AMD requires Mesa 13.0.1 driver compiled using LLVM 3.9. </li><li> * XCOM 2 War of the Chosen requirements differ to XCOM 2, please check the system requirements <a href=\"http://store.steampowered.com/app/593380/XCOM_2_War_of_the_Chosen/\" target=\"_blank\" rel=\"\"  > here </a> before purchasing. </li></ul></li></ul>",
+        "recommended": "<strong>Recomendados:</strong><br><ul class=\"bb_ul\"><li><strong>Sistema Operativo:</strong> Ubuntu 14.04.2 64-bit or Steam OS<br></li><li><strong>Processador:</strong> Intel i7 series<br></li><li><strong>Memória:</strong> 8 GB de RAM<br></li><li><strong>Placa gráfica:</strong> NVIDIA 960 (2GB)<br></li><li><strong>Espaço no disco:</strong> Requer 45 GB de espaço livre<br></li><li><strong>Notas adicionais:</strong> <ul class=\"bb_ul\"> <li> * Intel GPUs are not supported at time of release. </li><li> * We recommend Nvidia 358.16 drivers for best performance in XCOM 2. </li><li> * XCOM 2 War of the Chosen requirements differ to XCOM 2, please check the system requirements <a href=\"http://store.steampowered.com/app/593380/XCOM_2_War_of_the_Chosen/\" target=\"_blank\" rel=\"\"  > here </a> before purchasing. </li></ul></li></ul>"
       },
-      "legal_notice": "Copyright Motion Twin 2019 ©",
-      "developers": ["Motion Twin"],
-      "publishers": ["Motion Twin"],
+      "legal_notice": "©2015 Take-Two Interactive Software, Inc. Take-Two Interactive Software, Inc., 2K, Firaxis Games, XCOM, XCOM 2, and their respective logos are trademarks of Take-Two Interactive Software, Inc. All rights reserved.",
+      "developers": [
+        "Firaxis Games",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)"
+      ],
+      "publishers": [
+        "2K",
+        "Feral Interactive (Mac)",
+        "Feral Interactive (Linux)"
+      ],
       "price_overview": {
         "currency": "EUR",
-        "initial": 2499,
-        "final": 1249,
-        "discount_percent": 50,
-        "initial_formatted": "24,99€",
-        "final_formatted": "12,49€"
+        "initial": 4999,
+        "final": 4999,
+        "discount_percent": 0,
+        "initial_formatted": "",
+        "final_formatted": "49,99€"
       },
-      "packages": [152266],
+      "packages": [88099],
       "package_groups": [
         {
           "name": "default",
-          "title": "Comprar Dead Cells",
+          "title": "Comprar XCOM® 2",
           "description": "",
           "selection_text": "Seleciona uma opção de compra",
           "save_text": "",
@@ -53,172 +59,222 @@
           "is_recurring_subscription": "false",
           "subs": [
             {
-              "packageid": 152266,
-              "percent_savings_text": "-50% - ",
+              "packageid": 88099,
+              "percent_savings_text": " - ",
               "percent_savings": 0,
-              "option_text": "Dead Cells - <span class=\"discount_original_price\">24,99€</span> 12,49€",
+              "option_text": "XCOM 2 - 49,99€",
               "option_description": "",
               "can_get_free_license": "0",
               "is_free_license": false,
-              "price_in_cents_with_discount": 1249
+              "price_in_cents_with_discount": 4999
             }
           ]
         }
       ],
       "platforms": { "windows": true, "mac": true, "linux": true },
       "metacritic": {
-        "score": 89,
-        "url": "https://www.metacritic.com/game/pc/dead-cells?ftag=MCD-06-10aaa1f"
+        "score": 88,
+        "url": "https://www.metacritic.com/game/pc/xcom-2?ftag=MCD-06-10aaa1f"
       },
       "categories": [
         { "id": 2, "description": "Um jogador" },
         { "id": 22, "description": "Proezas do Steam" },
-        { "id": 28, "description": "Compatibilidade c/ comando" },
         { "id": 29, "description": "Cartas Colecionáveis" },
         { "id": 30, "description": "Steam Workshop" },
         { "id": 23, "description": "Steam Cloud" },
-        { "id": 41, "description": "Remote Play no telemóvel" },
-        { "id": 42, "description": "Remote Play no tablet" },
-        { "id": 43, "description": "Remote Play na TV" }
+        { "id": 42, "description": "Remote Play no tablet" }
       ],
-      "genres": [
-        { "id": "1", "description": "Ação" },
-        { "id": "25", "description": "Aventura" },
-        { "id": "23", "description": "Indie" }
-      ],
+      "genres": [{ "id": "2", "description": "Estratégia" }],
       "screenshots": [
         {
           "id": 0,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_ac28000ade40cc2fe5c128f32ac98ba33c008a7a.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_ac28000ade40cc2fe5c128f32ac98ba33c008a7a.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_a95cdbe487dbabf6621962fc92f438e26c5fdfd3.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_a95cdbe487dbabf6621962fc92f438e26c5fdfd3.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 1,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_7bde51ea6c8f6289e85ea1d8c1c941e1f8bfee91.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_7bde51ea6c8f6289e85ea1d8c1c941e1f8bfee91.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_ca76303e136d2ea500b8e6546d4319502ae8862a.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_ca76303e136d2ea500b8e6546d4319502ae8862a.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 2,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_e87e72a247918d8493892e035d5e1b4b84470d2f.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_e87e72a247918d8493892e035d5e1b4b84470d2f.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_200cb06b3ff1b9af8d445d349391554ac48635b4.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_200cb06b3ff1b9af8d445d349391554ac48635b4.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 3,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_a099416b9f3e09d47c42f87667e6ad6f394ba652.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_a099416b9f3e09d47c42f87667e6ad6f394ba652.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_b2694a32e6211c47b886ee76eabdbcc41cf4b408.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_b2694a32e6211c47b886ee76eabdbcc41cf4b408.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 4,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_a8b0439ad7750cab1bdec86ecef0daa280e9f93f.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_a8b0439ad7750cab1bdec86ecef0daa280e9f93f.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_50b987ea0074e44de58a9b4df87efb529cc8f625.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_50b987ea0074e44de58a9b4df87efb529cc8f625.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 5,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_21c61aca6a66745a2abb3f72b93553398fc7fe32.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_21c61aca6a66745a2abb3f72b93553398fc7fe32.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_0c78d6e8493172f6d6276eb82dc76399159f2f11.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_0c78d6e8493172f6d6276eb82dc76399159f2f11.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 6,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_ffef382d2a1ace63b82184caf3f6c5b293c66483.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_ffef382d2a1ace63b82184caf3f6c5b293c66483.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_375a36bca7fb6374e94078f17fc7c8104a4896eb.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_375a36bca7fb6374e94078f17fc7c8104a4896eb.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 7,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_b7cf2ca21fe3648c53f808b80393cc727815dcc5.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_b7cf2ca21fe3648c53f808b80393cc727815dcc5.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_3aca7c3d18a0a99c49658fc939edd27235d17e5f.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_3aca7c3d18a0a99c49658fc939edd27235d17e5f.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 8,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_a109be71f065e166ff33ba43853fba0a0d4753d1.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_a109be71f065e166ff33ba43853fba0a0d4753d1.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_40f86a3cb9a959b4116de2b88f1a52dd8fb7c519.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_40f86a3cb9a959b4116de2b88f1a52dd8fb7c519.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 9,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_6f305b9603c17d31ddcbda4c73add319bf910a41.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_6f305b9603c17d31ddcbda4c73add319bf910a41.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_da11c0538636cf143a3fd60dc8824144f2ba3c02.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_da11c0538636cf143a3fd60dc8824144f2ba3c02.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 10,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_2326cef0a0a81d2fdfe276f78c260222cb5e968c.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_2326cef0a0a81d2fdfe276f78c260222cb5e968c.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_c42d24a1bd8a9d9d50cbda9772ca3aae5348ce0e.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_c42d24a1bd8a9d9d50cbda9772ca3aae5348ce0e.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 11,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_65dde6f056018945351e18f55c3481fa2478547b.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_65dde6f056018945351e18f55c3481fa2478547b.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_ebf8ce7259f56e92cc5fdc75d9eeb2305521e8fb.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_ebf8ce7259f56e92cc5fdc75d9eeb2305521e8fb.1920x1080.jpg?t=1646157374"
         },
         {
           "id": 12,
-          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_b4d8d567f7bdcccc7195ca71d69f98a78575b96c.600x338.jpg?t=1678188017",
-          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/588650/ss_b4d8d567f7bdcccc7195ca71d69f98a78575b96c.1920x1080.jpg?t=1678188017"
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_5ef33ec3dbbc5dbe119e0881cfd57360ca3b67bc.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_5ef33ec3dbbc5dbe119e0881cfd57360ca3b67bc.1920x1080.jpg?t=1646157374"
+        },
+        {
+          "id": 13,
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_0aeb69f3b0d79e0934ba99468294f7acaae23459.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_0aeb69f3b0d79e0934ba99468294f7acaae23459.1920x1080.jpg?t=1646157374"
+        },
+        {
+          "id": 14,
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_d7c7eee81e4f9de3deac5358a0d8766c11fa83b2.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_d7c7eee81e4f9de3deac5358a0d8766c11fa83b2.1920x1080.jpg?t=1646157374"
+        },
+        {
+          "id": 15,
+          "path_thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_306d842978f1ee39fb21bec7998715820b821b5d.600x338.jpg?t=1646157374",
+          "path_full": "https://cdn.akamai.steamstatic.com/steam/apps/268500/ss_306d842978f1ee39fb21bec7998715820b821b5d.1920x1080.jpg?t=1646157374"
         }
       ],
       "movies": [
         {
-          "id": 256755089,
-          "name": "Dead Cells - Accolade Trailer",
-          "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256755089/movie.293x165.jpg?t=1581426951",
+          "id": 256660486,
+          "name": "XCOM 2 - Launch Trailer - PEGI",
+          "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256660486/movie.293x165.jpg?t=1454708337",
           "webm": {
-            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256755089/movie480.webm?t=1581426951",
-            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256755089/movie_max.webm?t=1581426951"
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256660486/movie480.webm?t=1454708337",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256660486/movie_max.webm?t=1454708337"
           },
           "mp4": {
-            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256755089/movie480.mp4?t=1581426951",
-            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256755089/movie_max.mp4?t=1581426951"
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256660486/movie480.mp4?t=1454708337",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256660486/movie_max.mp4?t=1454708337"
+          },
+          "highlight": true
+        },
+        {
+          "id": 256658977,
+          "name": "XCOM 2: Retaliation - PEGI",
+          "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256658977/movie.293x165.jpg?t=1454648748",
+          "webm": {
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256658977/movie480.webm?t=1454648748",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256658977/movie_max.webm?t=1454648748"
+          },
+          "mp4": {
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256658977/movie480.mp4?t=1454648748",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256658977/movie_max.mp4?t=1454648748"
+          },
+          "highlight": true
+        },
+        {
+          "id": 256655820,
+          "name": "XCOM 2: Welcome to the Avenger Trailer",
+          "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/256655820/movie.293x165.jpg?t=1449857393",
+          "webm": {
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256655820/movie480.webm?t=1449857393",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256655820/movie_max.webm?t=1449857393"
+          },
+          "mp4": {
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/256655820/movie480.mp4?t=1449857393",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/256655820/movie_max.mp4?t=1449857393"
+          },
+          "highlight": true
+        },
+        {
+          "id": 2039865,
+          "name": "XCOM 2 Announce PEGI",
+          "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/2039865/movie.293x165.jpg?t=1447375823",
+          "webm": {
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/2039865/movie480.webm?t=1447375823",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/2039865/movie_max.webm?t=1447375823"
+          },
+          "mp4": {
+            "480": "http://cdn.akamai.steamstatic.com/steam/apps/2039865/movie480.mp4?t=1447375823",
+            "max": "http://cdn.akamai.steamstatic.com/steam/apps/2039865/movie_max.mp4?t=1447375823"
           },
           "highlight": true
         }
       ],
-      "recommendations": { "total": 115368 },
+      "recommendations": { "total": 63508 },
       "achievements": {
-        "total": 121,
+        "total": 88,
         "highlighted": [
           {
-            "name": "Tranquilo e sereno...",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/f9ef1f9aa7798325d291e04f5a204a6052e23b44.jpg"
+            "name": "Earth Avenged",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/68d90ddee13efdfac9623df49a8c3f02c03cc1d1.jpg"
           },
           {
-            "name": "Uma sala com vista!",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/48c9eb32a1611aa466d6d3b5c2c6ed5566b815de.jpg"
+            "name": "Defender of Humanity",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/398a5316c690d9ea00888beba0ce4664fb50f656.jpg"
           },
           {
-            "name": "Finalmente, um momento de descanso...",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/e009d80f032453af564cda82dcfe70d73bac6bbf.jpg"
+            "name": "Immortal Commander",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/4d8cda8b312d5573eae47cb73b3564c939fbb066.jpg"
           },
           {
-            "name": "Cheiro de churrasco",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/467a17f28c8b630c619c8d4047104966e4d9bc63.jpg"
+            "name": "Tinker",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/3214bca3e3e9585c34c498d86275a865d1495aea.jpg"
           },
           {
-            "name": "Que cheiro é esse?",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/a29a4bec0f27a7de2ac488064c45922608f4de75.jpg"
+            "name": "Rise of the Resistance",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/0053c35deaa76125c7db4d8f0ef9766b68096598.jpg"
           },
           {
-            "name": "É melhor chamar o encanador!",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/c3157c20bed26fe798ec26ae35c13e4b4aa2c27c.jpg"
+            "name": "First Blood",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/e7e15d681598dbad0df64321237ad4aad5e0f20c.jpg"
           },
           {
-            "name": "\"Ajudar o peixe...\"",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/6340544ea022c62372f0a889bc0ec5abe46bd94d.jpg"
+            "name": "Rebel Radio",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/6f4589be18b661541cf922db2fcc7702a475cccf.jpg"
           },
           {
-            "name": "A cidade dos pés juntos",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/b2b9ca1a8fc7447608c81f1b36ce02b6f4d7adbd.jpg"
+            "name": "Codebreaker",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/307706a482b0b20b2d69046356f1569320ed3151.jpg"
           },
           {
-            "name": "Cavando o fundo do poço",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/04bc30c324be50a31afe33ad0a5bfe7b389588ff.jpg"
+            "name": "Room to Grow",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/e7e3a2fd9cc265ac15b97d35cb67aaae278b3ef1.jpg"
           },
           {
-            "name": "Para de fazer cócegas!",
-            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/588650/3a0fb1f10b97b332d5c437b79d55c9bed29e5837.jpg"
+            "name": "Shadow Broker",
+            "path": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/268500/b0b91740b8dbf7f1f4f246f68305450307b0a373.jpg"
           }
         ]
       },
-      "release_date": { "coming_soon": false, "date": "6 ago. 2018" },
-      "support_info": { "url": "", "email": "support@evilempirestudio.com" },
-      "background": "https://cdn.akamai.steamstatic.com/steam/apps/588650/page_bg_generated_v6b.jpg?t=1678188017",
-      "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/588650/page.bg.jpg?t=1678188017",
+      "release_date": { "coming_soon": false, "date": "4 fev. 2016" },
+      "support_info": { "url": "support.2k.com", "email": "" },
+      "background": "https://cdn.akamai.steamstatic.com/steam/apps/268500/page_bg_generated_v6b.jpg?t=1646157374",
+      "background_raw": "https://cdn.akamai.steamstatic.com/steam/apps/268500/page.bg.jpg?t=1646157374",
       "content_descriptors": { "ids": [], "notes": null }
     }
   }
