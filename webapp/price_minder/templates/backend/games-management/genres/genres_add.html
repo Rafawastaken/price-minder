@@ -1,0 +1,39 @@
+{% extends "./backend/base.html" %}
+<!-- signup page -->
+{% block content %}
+
+<div class="container-color mt-4">
+  <div class="row">
+    <div class="col">
+      <div class="display-5 mt-3 fw-medium blue-font text-center">ADD GAME</div>
+      <hr class="blue-font mt-2 mb-4" />
+    </div>
+  </div>
+  <div class="row">
+    <form method="POST">
+      {{form.csrf_token}}
+
+      <div class="mb-3">
+        {{form.name(placeholder="Genre Name",class='form-control input-color')}}
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <input
+            type="submit"
+            value="Add"
+            class="btn btn-primary form-control py-2"
+          />
+        </div>
+        <div class="col-6">
+          <a
+            href="{{url_for('games_management.genres_management_index')}}"
+            class="btn btn-secondary form-control py-2"
+            >Go Back</a
+          >
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

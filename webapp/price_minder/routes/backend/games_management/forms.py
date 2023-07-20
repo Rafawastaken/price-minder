@@ -3,10 +3,10 @@ from wtforms import StringField, PasswordField, SubmitField, DateField, BooleanF
 from wtforms.validators import DataRequired, Email, EqualTo
 
 
-# Sign-up forms
+# Add game form
 class AddGameForm(FlaskForm):
     # Meta
-    steam_id = StringField('Name', validators=[DataRequired()])
+    steam_id = StringField('Steam ID', validators=[DataRequired()])
     name = StringField('Name', validators=[DataRequired()])
     release_date = StringField('Release Date', validators=[DataRequired()])
     product_type = StringField('Product Type', validators=[DataRequired()])
@@ -22,3 +22,7 @@ class AddGameForm(FlaskForm):
     on_sale = BooleanField('on_sale')
     discount_price = StringField('discount_price', validators=[DataRequired()])
     discount_percent =  StringField('discount_percent', validators=[DataRequired()])
+
+# Add genre form
+class AddGenreForm(FlaskForm):
+    name = StringField('Name', validators=[DataRequired()])  
