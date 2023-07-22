@@ -22,10 +22,8 @@
       <thead>
         <th>ID</th>
         <th>IMG</th>
-        <th>Name</th>
+        <th class="text-start">Name</th>
         <th>Genre</th>
-        <th>Date</th>
-        <th>Type</th>
         <th>Price</th>
         <th>Sale</th>
         <th>Final</th>
@@ -39,14 +37,19 @@
         <td>
           <img src="{{game.capsule_imgv5}}" alt="{{game.name}}" height="25" />
         </td>
-        <td>{{game.name}}</td>
+        <td class="text-start">{{game.name}}</td>
         <td>{{game.genre.name}}</td>
-        <td>{{game.release_date}}</td>
-        <td>{{game.type_product}}</td>
         <td>{{game.price}}</td>
-        <td>{{game.on_sale}}</td>
-        <td>{{game.price}}</td>
+        {% if game.discount_percent| replace('%', '') | float > 0 %}
+        <td>-{{game.discount_percent}}</td>
+        {% else %}
+        <td>-</td>
+        {% endif %} {% if game.discount_percent| replace('%', '') | float > 0 %}
+        <td>{{game.discount_price}}</td>
 
+        {% else %}
+        <td>-</td>
+        {% endif %}
         <td>
           <a href="" class="btn btn-sm btn-outline-warning">Edit</a>
         </td>

@@ -7,7 +7,7 @@ class Game(db.Model):
     steam_id = db.Column(db.Integer, unique = True, nullable = False)
     name = db.Column(db.String(200), unique = True, nullable = False)
     release_date = db.Column(db.String(30), unique = True, nullable = False)
-    type_product = db.Column(db.String(30), unique = True, nullable = False)
+    type_product = db.Column(db.String(30), unique = False, nullable = False)
     description = db.Column(db.String(1000), unique = True, nullable = False)
 
     # Genres
