@@ -109,3 +109,17 @@ body {
   margin: 0.5em 1em;
   font-size: 3em;
 }
+
+/***** Frontend layout *****/
+
+.games-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 1.7em;
+}

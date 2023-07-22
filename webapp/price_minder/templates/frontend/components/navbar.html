@@ -33,9 +33,9 @@
             Genres
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Horror</a></li>
-            <li><a class="dropdown-item" href="#">Adventure</a></li>
+            {% for genre in genres %}
+            <li><a class="dropdown-item" href="#">{{genre.name}}</a></li>
+            {% endfor %}
           </ul>
         </li>
 
