@@ -1,3 +1,32 @@
 {% extends "./frontend/base.html" %}
 <!-- signup page -->
-{% block content %} {% endblock %}
+{% block content %}
+
+<!-- .header-container -->
+<div class="row">
+  <div class="container-color-no-margin mt-4">
+    <h2 class="header-front blue-font">Price Minder</h2>
+  </div>
+</div>
+
+<!-- Games on sale -->
+<div class="row mt-4">
+  {% for game in games %}
+  <div class="col mb-3">
+    <div class="card text-bg-dark neon-effect" style="width: 18rem">
+      <img src="{{game.header_img}}" class="card-img-top" alt="..." />
+
+      <div class="card-body">
+        <h5 class="card-title">{{game.name}}</h5>
+        <p class="card-text">
+          {{ game.description[:100] ~ '...' if game.description|length > 100
+          else game.description }}
+        </p>
+        <a href="#" class="btn btn-primary form-control">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

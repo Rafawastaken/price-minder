@@ -76,6 +76,13 @@ body {
   color: var(--font-color-placeholder);
 }
 
+/***** Styles *****/
+
+.neon-effect {
+  border: 1px solid var(--blue-light-color);
+  box-shadow: 0 0 0.2em 0.07em var(--blue-light-color);
+}
+
 .blue-font {
   color: var(--blue-color);
 }
@@ -88,4 +95,17 @@ body {
   border-radius: 0.5em;
   border: 1px solid var(--blue-light-color);
   box-shadow: 0 0 0.2em 0.07em var(--blue-light-color);
+}
+
+.container-color-no-margin {
+  background-color: var(--container-color);
+  border-radius: 0.5em;
+  border: 1px solid var(--blue-light-color);
+  box-shadow: 0 0 0.2em 0.07em var(--blue-light-color);
+}
+
+/***** Frontend *****/
+.header-front {
+  margin: 0.5em 1em;
+  font-size: 3em;
 }
