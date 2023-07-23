@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, flash
+from flask import Blueprint, render_template, flash, request
 
 # models
 from ...backend.games_management.models import Game, Genre
@@ -13,6 +13,7 @@ pages = Blueprint('pages', __name__)
 @pages.route('/')
 def index_pages():
     title = "Price Minder"
-    games = Game.query.all()
+    page = request.args.get('page', 1, type=int)
+    games = Game.query.paginate(page=page, per_page=3, error_out=False)
     genres = Genre.query.all()
     return render_template('./frontend/pages/index.html', title=title, games=games, genres=genres)

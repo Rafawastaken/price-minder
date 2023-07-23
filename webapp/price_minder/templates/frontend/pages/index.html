@@ -10,7 +10,7 @@
 
 <!-- Games on sale -->
 <div class="games-list-container">
-  {% for game in games %}
+  {% for game in games.items %}
   <div class="mb-3">
     <div class="card text-bg-dark neon-effect" style="width: 18em">
       <img src="{{game.header_img}}" class="card-img-top" alt="..." />
@@ -31,6 +31,22 @@
     </div>
   </div>
   {% endfor %}
+
+  <div class="row mx-auto">
+    {% if games.has_prev %}
+    <div class="col-lg-5">
+      <a href="?page={{games.prev_num}}" class="btn btn-outline-primary"
+        >Prev</a
+      >
+    </div>
+    {% endif %} {% if games.has_next %}
+    <div class="col-lg-5">
+      <a href="?page={{games.next_num}}" class="btn btn-outline-primary"
+        >Next</a
+      >
+    </div>
+    {% endif %}
+  </div>
 </div>
 
 {% endblock %}
