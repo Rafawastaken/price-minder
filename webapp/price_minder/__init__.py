@@ -3,7 +3,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
 from flask_bcrypt import Bcrypt
-
+from flask_restful import Api
+from flask_httpauth import HTTPBasicAuth
 
 app = Flask(__name__)
 db = SQLAlchemy()
@@ -18,6 +19,9 @@ with app.app_context():
 
     # Bcrypt
     bcrypt = Bcrypt(app)
+
+    # Http auth
+    auth = HTTPBasicAuth()
 
     # Login Mananger
     login_manager = LoginManager()
@@ -39,6 +43,9 @@ with app.app_context():
     from .routes.frontend.users.routes import users
     from .routes.frontend.pages.routes import pages
 
+    # Api
+    from .api.api import api_bp
+
     # Backend blueprints
     app.register_blueprint(admin, url_prefix = '/admin')
     app.register_blueprint(management, url_prefix = '/admin/management')
@@ -47,3 +54,14 @@ with app.app_context():
     # Frontend
     app.register_blueprint(users, url_prefix = '/')
     app.register_blueprint(pages, url_prefix = '/')
+
+    # Api Restful
+    api = Api(api_bp)
+
+    app.register_blueprint(api_bp) # Api blueprin
+
+    # Api Endpoints
+    from .api.api import GameDetails
+
+    api.add_resource(GameDetails, "/game_details/<int:steam_id>")
+    # api.add_resource(GameDetailsAPI, "/api/game_details/<int:id>")

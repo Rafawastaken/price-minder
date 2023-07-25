@@ -26,13 +26,30 @@
         <hr />
         <!-- ! Need to show discount price ! -->
         <p class="card-text">Price: {{game.price}}</p>
+        {% if current_user.is_authenticated %}
+        <div class="row">
+          <div class="col">
+            <a href="#" class="btn btn-outline-primary form-control"
+              >Add Wishlist</a
+            >
+          </div>
+          <div class="col">
+            <a href="#" class="btn btn-outline-primary form-control"
+              >Buy Game</a
+            >
+          </div>
+        </div>
+
+        {% else %}
+
         <a href="#" class="btn btn-primary form-control">Go somewhere</a>
+        {% endif %}
       </div>
     </div>
   </div>
   {% endfor %}
 
-  <div class="row mx-auto">
+  <div class="row mx-auto mb-3">
     {% if games.has_prev %}
     <div class="col-lg-5">
       <a href="?page={{games.prev_num}}" class="btn btn-outline-primary"
