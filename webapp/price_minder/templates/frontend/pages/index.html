@@ -47,23 +47,17 @@
       </div>
     </div>
   </div>
-  {% endfor %}
 
-  <div class="row mx-auto mb-3">
-    {% if games.has_prev %}
-    <div class="col-lg-5">
-      <a href="?page={{games.prev_num}}" class="btn btn-outline-primary"
-        >Prev</a
-      >
-    </div>
-    {% endif %} {% if games.has_next %}
-    <div class="col-lg-5">
-      <a href="?page={{games.next_num}}" class="btn btn-outline-primary"
-        >Next</a
-      >
-    </div>
-    {% endif %}
-  </div>
+  {% endfor %}
+</div>
+<div class="mt-4 mb-3">
+  {% if games.has_prev %}
+  <a href="?page={{games.prev_num}}" class="btn btn-outline-primary me-3"
+    >Prev</a
+  >
+  {% endif %} {% if games.has_next %}
+  <a href="?page={{games.next_num}}" class="btn btn-outline-primary">Next</a>
+  {% endif %}
 </div>
 
 {% endblock %}
