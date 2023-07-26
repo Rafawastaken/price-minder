@@ -18,7 +18,7 @@ def verify(access_name, access_key):
 
 
 ########################## * Games List * #####################
-
+game_list_resource_fields = {}
 
 
 ########################## * Game Details * #####################
