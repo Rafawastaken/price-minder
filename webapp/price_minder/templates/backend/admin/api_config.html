@@ -1,0 +1,48 @@
+{% extends "./backend/base.html" %}
+<!-- signup page -->
+{% block content %}
+
+<div class="container-color mt-4">
+  <div class="row">
+    <div class="col">
+      <div class="display-5 mt-3 fw-medium blue-font text-center">API KEY</div>
+      <hr class="blue-font mt-2 mb-4" />
+    </div>
+  </div>
+  <div class="row">
+    <form method="POST">
+      {{form.csrf_token}}
+      <div class="mb-3">
+        {{form.key(id='inp_key',placeholder="API Key", class='form-control
+        input-color' )}}
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <input
+            type="submit"
+            value="Update"
+            class="btn btn-primary form-control"
+          />
+        </div>
+        <div class="col-4">
+          <button
+            class="btn btn-outline-light form-control"
+            id="btn_generate_key"
+          >
+            Generate
+          </button>
+        </div>
+        <div class="col-4">
+          <a
+            href="{{url_for('admin.admin_config')}}"
+            class="btn btn-secondary form-control"
+            >Go Back</a
+          >
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="{{url_for('static', filename='./js/generate_key.js')}}"></script>
+{% endblock %}

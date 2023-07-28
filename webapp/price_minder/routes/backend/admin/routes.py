@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, flash, redirect, url_for
 from flask_login import login_required, current_user
-
+from .forms import ApiForm
 
 
 ##################### * Blueprint * #####################
@@ -29,5 +29,21 @@ def admin_index():
     return render_template('./backend/admin/index.html', title = title)
 
 
+##################### * Admin Config * #####################
+
+# Config Landing
+@admin.route('/config')
+@login_required
+def admin_config():
+    title = "Price Minder - Website Configurations"
+    return render_template('./backend/admin/admin_config.html', title = title)
 
 
+# API Config 
+@admin.route('/config/api', methods = ['GET', 'POST'])
+@login_required
+def admin_api_config():
+    title = "Price Minder - Api Configuration"
+    form = ApiForm()
+
+    return render_template('./backend/admin/api_config.html', title = title, form = form)
