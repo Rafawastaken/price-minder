@@ -13,8 +13,10 @@
     <form method="POST">
       {{form.csrf_token}}
       <div class="mb-3">
-        {{form.key(id='inp_key',placeholder="API Key", class='form-control
-        input-color' )}}
+        {% if api_key %} {{form.key(id='inp_key',placeholder="API Key",
+        class='form-control input-color text-center', value=api_key.key )}} {%
+        else %} {{form.key(id='inp_key',placeholder="API Key",
+        class='form-control input-color text-center' )}} {% endif %}
       </div>
       <div class="row">
         <div class="col-4">
