@@ -65,14 +65,18 @@ def admin_api_config():
     api_key = ApiKey.query.first()
 
     if form.validate_on_submit():
+
+        # Check if there's an API key in database
         if not api_key:
             api = ApiKey(key = form.key.data)
             db.session.add(api)
         else:
             api_key.key = form.key.data    
+        
         db.session.commit()
         flash('API Key updated', "success")
         return redirect(url_for('admin.admin_config'))
+    
     else:
         flash_errors(form.errors)
 

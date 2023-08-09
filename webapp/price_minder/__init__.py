@@ -62,6 +62,7 @@ with app.app_context():
 
     # Api Endpoints
     from .api.api import GameDetails
+    from .api.api import GameList
 
-    api.add_resource(GameDetails, "/game_details/<int:steam_id>")
-    # api.add_resource(GameDetailsAPI, "/api/game_details/<int:id>")
+    api.add_resource(GameDetails, "/api/game_details/<int:steam_id>")
+    api.add_resource(GameList, "/api/game_list")
